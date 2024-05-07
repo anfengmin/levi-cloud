@@ -96,6 +96,12 @@
             <scope>import</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+
         <!-- SpringCloud 微服务 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -105,11 +111,6 @@
             <scope>import</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot</artifactId>
-            <version>${spring-boot.version}</version>
-        </dependency>
 
 
 <!--        <dependency>-->
