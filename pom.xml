@@ -14,7 +14,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <revision>1.1.0</revision>
-        <springboot.version>2.7.18</springboot.version>
+        <spring-boot.version>3.1.11</spring-boot.version>
+        <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
+        <spring-cloud.version>2022.0.4</spring-cloud.version>
+
+
         <lombok.version>1.18.30</lombok.version>
         <hutool.version>5.8.25</hutool.version>
 
@@ -88,10 +92,28 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-dependencies</artifactId>
-            <version>${springboot.version}</version>
+            <version>${spring-boot.version}</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
+
+        <!-- SpringCloud 微服务 -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--            <version>${spring-cloud.version}</version>-->
+<!--            <type>pom</type>-->
+<!--            <scope>import</scope>-->
+<!--        </dependency>-->
+
+
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
+<!--            <version>${spring-cloud-alibaba.version}</version>-->
+<!--            <type>pom</type>-->
+<!--            <scope>import</scope>-->
+<!--        </dependency>-->
 
         <!-- hutool 的依赖配置-->
         <dependency>
