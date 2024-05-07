@@ -16,7 +16,7 @@
         <revision>1.1.0</revision>
         <springboot.version>2.7.18</springboot.version>
         <lombok.version>1.18.30</lombok.version>
-        <hutool.version>5.8.22</hutool.version>
+        <hutool.version>5.8.25</hutool.version>
 
         <spring-mock.version>2.0.8</spring-mock.version>
         <mybatis-plus.version>3.5.2</mybatis-plus.version>
@@ -96,9 +96,8 @@
         <!-- hutool 的依赖配置-->
         <dependency>
             <groupId>cn.hutool</groupId>
-            <artifactId>hutool-bom</artifactId>
+            <artifactId>hutool-all</artifactId>
             <version>${hutool.version}</version>
-            <type>pom</type>
         </dependency>
 
 
