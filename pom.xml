@@ -20,6 +20,7 @@
 
         <lombok.version>1.18.30</lombok.version>
         <hutool.version>5.8.25</hutool.version>
+        <sa-token.version>1.37.0</sa-token.version>
 
 <!--        <spring-mock.version>2.0.8</spring-mock.version>-->
 <!--        <mybatis-plus.version>3.5.2</mybatis-plus.version>-->
@@ -143,7 +144,7 @@
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-core</artifactId>
-            <version>1.37.0</version>
+            <version>${sa-token.version}</version>
         </dependency>
 
 
