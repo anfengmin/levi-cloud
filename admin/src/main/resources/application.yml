@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    # 应用名称
+    name: levi-admin
+#  profiles:
+#    # 环境配置
+#    active: @profiles.active@
